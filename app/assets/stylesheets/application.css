@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+ @import "bootstrap";
+
+.inline-form {
+    display: inline-block;
+  }
+  
+.btn-danger {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    font-size: inherit;
+  }
+
+/* Style personnalisé pour les boutons */
+.btn-sm {
+    margin: 2px;
+}
+  
+/* Style pour le formulaire */
+.needs-validation {
+    max-width: 500px;
+    margin: 0 auto;
+}
+  
+  /* Style pour les cartes */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  /* Style pour le tableau */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
